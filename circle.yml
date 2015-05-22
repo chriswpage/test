@@ -1,3 +1,4 @@
 test:
   override:
-    - phpunit tests/unit
+    - phpunit tests/unit #PHPUnit for testing
+    - vendor/phploc/phploc/phploc src #PHPLoc for lines of code and other neat metrics
