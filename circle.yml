@@ -1,2 +1,5 @@
 general:
-  build_dir: tests
+  build_dir: tests/build
+test:
+  override:
+    - phpunit tests/unit
