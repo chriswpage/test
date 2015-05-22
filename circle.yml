@@ -1,3 +1,6 @@
+dependencies:
+  pre:
+    - composer install
 test:
   override:
     - phpunit tests/unit #PHPUnit for testing
